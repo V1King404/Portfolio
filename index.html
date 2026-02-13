@@ -12,13 +12,18 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <style>
-    :root{
-      --primary:#2563eb;
-      --accent:#38bdf8;
-      --dark:#0f172a;
-      --text:#475569;
-      --light:#f8fafc;
-    }
+    .hero img{
+    width:380px;
+    border-radius:50%;
+    border:8px solid white;
+    box-shadow:0 30px 80px rgba(0,0,0,.18);
+    transition:0.4s;
+}
+
+.hero img:hover{
+    transform:scale(1.05);
+}
+
 
     *{
       margin:0;
@@ -351,8 +356,10 @@
     </div>
   </div>
 
-  <div data-aos="fade-left">
-    <img src="/mnt/data/Picsart_25-04-12_13-38-56-094.jpg">
+<div class="hero">
+    <img src="assets/profile.jpg" alt="Shouvik Mandal">
+</div>
+
   </div>
 </div>
 
@@ -464,4 +471,5 @@
 
 </body>
 </html>
+
 
